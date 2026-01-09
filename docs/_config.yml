@@ -1,0 +1,25 @@
+title: ROSE Oasis Web3 Learning Notes
+description: Documentation and notes on web3 development with Oasis Network
+url: "https://jindong-pan.github.io/rose_oasis"
+baseurl: "/rose_oasis"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .bundle/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+
+# Include files
+include:
+  - _pages

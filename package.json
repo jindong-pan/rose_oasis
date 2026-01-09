@@ -1,0 +1,20 @@
+{
+  "name": "rose-oasis-web3",
+  "version": "1.0.0",
+  "description": "Web3 development project on Oasis Network",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deploy.js --network sapphire"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@oasisprotocol/sapphire-hardhat": "^1.0.0",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "@oasisprotocol/sapphire-contracts": "^0.2.0",
+    "ethers": "^6.8.0"
+  }
+}
